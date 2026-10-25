@@ -1,22 +1,22 @@
 Java Program: Abstract Class
 
-// Abstract class
+
 abstract class Shape
 {
-    // Abstract method
+   
     abstract void area();
 
-    // Normal method
+  
     void display()
     {
         System.out.println("This is a shape");
     }
 }
 
-// Child class
+
 class Circle extends Shape
 {
-    // Implementing abstract method
+  
     void area()
     {
         int r = 5;
@@ -26,7 +26,7 @@ class Circle extends Shape
     }
 }
 
-// Main class
+
 class AbstractClassDemo
 {
     public static void main(String args[])
