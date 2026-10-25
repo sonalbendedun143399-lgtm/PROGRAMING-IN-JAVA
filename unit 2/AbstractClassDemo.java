@@ -1,5 +1,3 @@
-Java Program: Abstract Class
-
 
 abstract class Shape
 {
